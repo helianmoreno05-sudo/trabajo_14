@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+input, button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+
+input {
+  border: 2px solid #000;
+}
+
+button {
+  background: #555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 20px;
+}
